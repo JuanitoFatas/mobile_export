@@ -1,5 +1,10 @@
 require "mobile_export/version"
+require "mobile_export/android"
 
 module MobileExport
-  # Your code goes here...
+  class CLI
+    def self.execute
+      Android.new.run
+    end
+  end
 end
