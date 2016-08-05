@@ -1,5 +1,8 @@
 # MobileExport
 
+[![Gem Version](https://badge.fury.io/rb/mobile_export.svg)](https://badge.fury.io/rb/mobile_export)
+[![Build Status](https://travis-ci.org/JuanitoFatas/mobile_export.svg?branch=master)](https://travis-ci.org/JuanitoFatas/mobile_export)
+
 Organize your images for Android.
 
 Given:
