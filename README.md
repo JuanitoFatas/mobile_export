@@ -1,41 +1,46 @@
 # MobileExport
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mobile_export`. To experiment with that code, run `bin/console` for an interactive prompt.
+Organize your images for Android.
 
-TODO: Delete this and the text above, and describe your gem
+Given:
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'mobile_export'
+```
+folder/
+├── base_h.png
+├── base_hhh.png
+├── base_m.png
+├── base_xh.png
+└── base_xxh.png
 ```
 
-And then execute:
+After `mobile_export`:
 
-    $ bundle
+```
+folder/
+├── drawable-hdpi
+│   └── base.png
+├── drawable-hhhdpi
+│   └── base.png
+├── drawable-mdpi
+│   └── base.png
+├── drawable-xhdpi
+│   └── base.png
+└── drawable-xxhdpi
+    └── base.png
+```
 
-Or install it yourself as:
+## Installation
 
     $ gem install mobile_export
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    $ mobile_export
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/mobile_export.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/JuanitoFatas/mobile_export.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
